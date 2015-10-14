@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ultimatefitnessapp.FormActivity" >
+
+    <TextView
+        android:id="@+id/tWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello User! Please Enter your Details Below"
+        android:textColor="#FFF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tAge"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tWelcome"
+        android:layout_below="@+id/tWelcome"
+        android:layout_marginTop="20dp"
+        android:text="Age"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFF" />
+
+    <EditText
+        android:id="@+id/eAge"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tAge"
+        android:layout_alignBottom="@+id/tAge"
+        android:layout_toRightOf="@+id/tAge"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tSex"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eAge"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/eAge"
+        android:text="Sex(M/F)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/tWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tSex"
+        android:layout_below="@+id/tSex"
+        android:layout_marginTop="22dp"
+        android:text="Weight(LB)"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/eWeight"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tWeight"
+        android:layout_alignBottom="@+id/tWeight"
+        android:layout_marginLeft="26dp"
+        android:textColor="#FFF"
+        android:layout_toRightOf="@+id/tWeight"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/eSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tWelcome"
+        android:layout_alignTop="@+id/tSex"
+        android:ems="10"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/tHeight"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tWeight"
+        android:layout_below="@+id/eWeight"
+        android:layout_marginTop="34dp"
+        android:text="Height(cm)"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/eHeight"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tHeight"
+        android:layout_alignBottom="@+id/tHeight"
+        android:layout_alignLeft="@+id/eWeight"
+        android:layout_marginLeft="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFF" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tWaist"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tHeight"
+        android:layout_below="@+id/eHeight"
+        android:layout_marginTop="32dp"
+        android:text="Waist(cm)"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/eWaist"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tWaist"
+        android:layout_alignBottom="@+id/tWaist"
+        android:layout_alignRight="@+id/eWeight"
+        android:ems="10"
+        android:textColor="#FFF"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/eAge"
+        android:layout_marginBottom="29dp"
+        android:background="#DDD"
+        android:text="Submit" />
+
+</RelativeLayout>
