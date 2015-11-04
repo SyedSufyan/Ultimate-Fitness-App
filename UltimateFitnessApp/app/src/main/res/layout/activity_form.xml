@@ -68,7 +68,6 @@
         android:layout_alignBaseline="@+id/tWeight"
         android:layout_alignBottom="@+id/tWeight"
         android:layout_marginLeft="26dp"
-        android:textColor="#FFF"
         android:layout_toRightOf="@+id/tWeight"
         android:ems="10"
         android:inputType="number" />
