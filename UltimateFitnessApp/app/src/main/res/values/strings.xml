@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UltimateFitnessApp</string>
+    <string name="hello_world">Welcome to your Ultimate Fitness App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_option">OptionActivity</string>
+    <string name="title_activity_bmi">BMIActivity</string>
+    <string name="title_activity_bfp">BFPActivity</string>
+
+</resources>
