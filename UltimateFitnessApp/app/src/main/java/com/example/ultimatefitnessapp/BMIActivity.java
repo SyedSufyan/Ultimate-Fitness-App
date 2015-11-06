@@ -8,6 +8,8 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.text.DecimalFormat;
+
 public class BMIActivity extends Activity {
 
 	@Override
@@ -15,7 +17,44 @@ public class BMIActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_bmi);
 
-		//Reading the value from the form
+		//Get the bundle
+		Bundle bundle = getIntent().getExtras();
+
+		//Extract the data…
+		String data = bundle.getString("Trans");
+		double bmi = Double.parseDouble(data);
+		//truncating
+		bmi = roundTwoDecimals(bmi);
+		data = String.valueOf(bmi);
+		String bmiStat = "";
+		TextView outbmi = (TextView) findViewById(R.id.bmiResult);
+		TextView statbmi = (TextView)findViewById(R.id.tStatb);
+		if(bmi<18.5)
+		{
+			outbmi.setText(data);
+			bmiStat = "UnderWeight";
+			statbmi.setText(bmiStat);
+
+		}
+		else if (bmi<24.9)
+		{
+			outbmi.setText(data);
+			bmiStat = "Healthy";
+			statbmi.setText(bmiStat);
+		}
+		else if (bmi<29.9)
+		{
+			outbmi.setText(data);
+			bmiStat = "OverWeight";
+			statbmi.setText(bmiStat);
+		}
+		else
+		{
+			outbmi.setText(data);
+			bmiStat = "Obese";
+			statbmi.setText(bmiStat);
+		}
+
 
 	}
 
@@ -36,5 +75,9 @@ public class BMIActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	public double roundTwoDecimals(double d) {
+		DecimalFormat twoDForm = new DecimalFormat("#.##");
+		return Double.valueOf(twoDForm.format(d));
 	}
 }

@@ -6,6 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#555"
     tools:context="com.example.ultimatefitnessapp.BMIActivity" >
 
     <ImageView
@@ -18,6 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FFF"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Your Body Mass Index is : "
         android:id="@+id/tBMI"
@@ -25,10 +27,31 @@
 
     <TextView
         android:layout_width="133dp"
+        android:textColor="#FFF"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/bmiResult"
         android:layout_gravity="right|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="30dp"
+        android:text="Your BMI Stat is : "
+        android:id="@+id/tStatbmi"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tStatb"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_horizontal|top" />
 
 
 </FrameLayout>
