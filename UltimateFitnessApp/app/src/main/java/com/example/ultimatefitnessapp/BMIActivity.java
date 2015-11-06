@@ -2,9 +2,12 @@ package com.example.ultimatefitnessapp;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -54,6 +57,18 @@ public class BMIActivity extends Activity {
 			bmiStat = "Obese";
 			statbmi.setText(bmiStat);
 		}
+
+		Button bmiWeb = (Button) findViewById(R.id.bBMIweb);
+		bmiWeb.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+				Uri uri = Uri.parse("http://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/"); // missing 'http://' will cause crashed
+				Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+				startActivity(intent);
+
+			}
+		});
 
 
 	}

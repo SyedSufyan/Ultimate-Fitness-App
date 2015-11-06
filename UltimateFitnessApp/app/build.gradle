@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.ultimatefitnessapp"
-        minSdkVersion 23
+        minSdkVersion 19
         targetSdkVersion 23
     }
 

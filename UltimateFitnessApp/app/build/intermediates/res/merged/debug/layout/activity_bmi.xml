@@ -53,6 +53,25 @@
         android:layout_marginLeft="20dp"
         android:layout_gravity="center_horizontal|top" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Click on the button to know more about Body Mass Index"
+        android:textColor="#FFF"
+        android:layout_marginTop="70dp"
+        android:id="@+id/tBmiWeb"
+        android:layout_gravity="left|top" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Body Mass Index"
+        android:background="#CCC"
+        android:layout_marginTop="130dp"
+        android:id="@+id/bBMIweb"
+        android:layout_gravity="center_horizontal|top" />
+
 
 </FrameLayout>
 <!-- From: file:/C:/Users/SyedSufyan/Documents/GitHub/Ultimate-Fitness-App/UltimateFitnessApp/app/src/main/res/layout/activity_bmi.xml -->

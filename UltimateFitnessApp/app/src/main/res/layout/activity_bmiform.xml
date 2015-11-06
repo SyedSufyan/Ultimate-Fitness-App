@@ -33,7 +33,7 @@
         android:layout_alignBaseline="@+id/tWeight"
         android:layout_alignBottom="@+id/tWeight"
         android:layout_marginLeft="80dp"
-        android:hint="In Lb"
+        android:hint="in lb"
         android:layout_marginTop="40dp"
         android:layout_toRightOf="@+id/tWeight"
         android:ems="10"
@@ -48,6 +48,7 @@
         android:layout_below="@+id/eWeight"
         android:layout_marginTop="94dp"
         android:text="Height : "
+        android:inputType="number"
         android:textColor="#FFF"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_gravity="left|top" />
