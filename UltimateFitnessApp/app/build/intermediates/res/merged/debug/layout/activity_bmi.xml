@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,10 +10,26 @@
 
     <ImageView
         android:id="@+id/test_image"
-        android:layout_width="250dp"
+        android:layout_width="350dp"
         android:layout_height="250dp"
         android:layout_marginTop="200dp"
         android:src="@drawable/bmichart" />
 
-</RelativeLayout>
-<!-- From: file:/C:/Users/SyedSufyan/StudioProjects/UltimateFitnessApp/app/src/main/res/layout/activity_bmi.xml -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Your Body Mass Index is : "
+        android:id="@+id/tBMI"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/bmiResult"
+        android:layout_gravity="right|top" />
+
+
+</FrameLayout>
+<!-- From: file:/C:/Users/SyedSufyan/Documents/GitHub/Ultimate-Fitness-App/UltimateFitnessApp/app/src/main/res/layout/activity_bmi.xml -->

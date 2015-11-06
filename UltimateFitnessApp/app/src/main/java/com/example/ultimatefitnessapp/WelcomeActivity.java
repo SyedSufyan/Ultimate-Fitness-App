@@ -16,13 +16,13 @@ public class WelcomeActivity extends Activity {
 			public void run()
 			{
 				try{
-					sleep(3000);
+					sleep(5000);
 				}
 				catch(Exception E)
 				{
 					E.printStackTrace();
 				} finally {
-					Intent intent = new Intent("com.example.ultimatefitnessapp.FormActivity");
+					Intent intent = new Intent("com.example.ultimatefitnessapp.OptionActivity");
 					startActivity(intent);
 					
 				}

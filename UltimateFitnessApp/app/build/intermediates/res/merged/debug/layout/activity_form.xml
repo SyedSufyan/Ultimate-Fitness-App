@@ -70,6 +70,7 @@
         android:layout_marginLeft="26dp"
         android:layout_toRightOf="@+id/tWeight"
         android:ems="10"
+        android:textColor="#FFF"
         android:inputType="number" />
 
     <EditText
@@ -139,4 +140,4 @@
         android:background="#DDD"
         android:text="Submit" />
 
-</RelativeLayout><!-- From: file:/C:/Users/SyedSufyan/StudioProjects/UltimateFitnessApp/app/src/main/res/layout/activity_form.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/SyedSufyan/Documents/GitHub/Ultimate-Fitness-App/UltimateFitnessApp/app/src/main/res/layout/activity_form.xml -->

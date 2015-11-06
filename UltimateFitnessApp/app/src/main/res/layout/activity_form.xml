@@ -70,6 +70,7 @@
         android:layout_marginLeft="26dp"
         android:layout_toRightOf="@+id/tWeight"
         android:ems="10"
+        android:textColor="#FFF"
         android:inputType="number" />
 
     <EditText

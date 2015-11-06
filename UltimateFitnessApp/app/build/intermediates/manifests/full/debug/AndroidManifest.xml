@@ -10,6 +10,10 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -46,7 +50,7 @@
             android:name="com.example.ultimatefitnessapp.BMIActivity"
             android:label="@string/title_activity_bmi" >
             <intent-filter>
-                <action android:name="com.example.ultimatefitnessapp.OptionActivity" />
+                <action android:name="com.example.ultimatefitnessapp.BMIActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -54,6 +58,10 @@
         <activity
             android:name="com.example.ultimatefitnessapp.BFPActivity"
             android:label="@string/title_activity_bfp" >
+        </activity>
+        <activity
+            android:name="com.example.ultimatefitnessapp.BMIFormActivity"
+            android:label="@string/title_activity_bmiform" >
         </activity>
     </application>
 

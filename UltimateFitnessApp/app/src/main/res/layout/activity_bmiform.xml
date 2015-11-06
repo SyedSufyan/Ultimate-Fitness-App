@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#555"
+    tools:context="com.example.ultimatefitnessapp.BMIFormActivity">
+
+    <TextView
+        android:id="@+id/tWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello User! Please Enter your Details Below"
+        android:textColor="#FFF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tSex"
+        android:layout_below="@+id/tSex"
+        android:layout_marginTop="45dp"
+        android:text="Weight:"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/eWeight"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tWeight"
+        android:layout_alignBottom="@+id/tWeight"
+        android:layout_marginLeft="80dp"
+        android:hint="In Lb"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/tWeight"
+        android:ems="10"
+        android:textColor="#FFF"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:id="@+id/tHeight"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tWeight"
+        android:layout_below="@+id/eWeight"
+        android:layout_marginTop="94dp"
+        android:text="Height : "
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="left|top" />
+
+    <EditText
+        android:id="@+id/eHeight"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tHeight"
+        android:layout_alignBottom="@+id/tHeight"
+        android:layout_alignLeft="@+id/eWeight"
+        android:layout_marginLeft="84dp"
+        android:hint="in cm"
+        android:layout_marginTop="90dp"
+
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFF"
+        android:layout_gravity="left|top" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:id="@+id/bcalBMI"
+        android:background="#BBB"
+        android:layout_gravity="right|center_vertical" />
+
+
+</FrameLayout>

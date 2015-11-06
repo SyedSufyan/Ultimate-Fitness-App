@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/SyedSufyan/StudioProjects/UltimateFitnessApp/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/SyedSufyan/Documents/GitHub/Ultimate-Fitness-App/UltimateFitnessApp/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/SyedSufyan/StudioProjects/UltimateFitnessApp/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/SyedSufyan/Documents/GitHub/Ultimate-Fitness-App/UltimateFitnessApp/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">UltimateFitnessApp</string>
     <string name="hello_world">Welcome to your Ultimate Fitness App</string>
     <string name="title_activity_bfp">BFPActivity</string>
     <string name="title_activity_bmi">BMIActivity</string>
+    <string name="title_activity_bmiform">BMIFormActivity</string>
     <string name="title_activity_form">FormActivity</string>
     <string name="title_activity_option">OptionActivity</string>
-    <!-- From: file:/C:/Users/SyedSufyan/StudioProjects/UltimateFitnessApp/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/SyedSufyan/Documents/GitHub/Ultimate-Fitness-App/UltimateFitnessApp/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

@@ -26,19 +26,7 @@ public class OptionActivity extends Activity {
 					// TODO Auto-generated method stub
 					//go to aws option page
 					
-					Intent intent= new Intent(OptionActivity.this,BMIActivity.class);
-					
-					EditText heightField = (EditText) findViewById(R.id.eHeight);
-					//String heightS = heightField;
-					//int height = Integer.parseInt(heightS);
-					EditText weightField = (EditText) findViewById(R.id.eWeight);
-					String weightS = weightField.toString();
-					int weight = Integer.parseInt(weightS);
-					
-					//double bmi = (weight/2.20462)/((height/100)*(height/100));
-					
-					//double TransText = bmi;
-	            	//intent.putExtra("text",TransText);
+					Intent intent= new Intent(OptionActivity.this,BMIFormActivity.class);
 					
 					startActivity(intent);
 				}

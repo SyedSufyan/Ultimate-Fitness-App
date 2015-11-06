@@ -14,15 +14,9 @@ public class BMIActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_bmi);
-		
-		Intent intent = getIntent();
-		String message = intent.getStringExtra("text");
-		String msg = "Your BMI is : " + message;
-		 TextView textView = new TextView(this);
-	        textView.setTextSize(20);
-	        textView.setText(msg);
-	        setContentView(textView);
-		
+
+		//Reading the value from the form
+
 	}
 
 	@Override
