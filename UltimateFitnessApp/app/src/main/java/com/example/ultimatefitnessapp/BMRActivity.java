@@ -28,8 +28,8 @@ public class BMRActivity extends Activity {
         //Extract the data…
         String data = bundle.getString("Trans");
 
-        String bmr = data;
-        String bmrStat = data;
+        String tBmr = data;
+        String bmrResult = data;
 
         TextView outbmr = (TextView) findViewById(R.id.bmrResult);
         TextView statbmr = (TextView)findViewById(R.id.tStatb);
