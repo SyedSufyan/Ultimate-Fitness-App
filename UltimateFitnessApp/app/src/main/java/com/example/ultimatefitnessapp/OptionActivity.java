@@ -19,18 +19,33 @@ public class OptionActivity extends Activity {
 		
 		Button bBMI = (Button) findViewById(R.id.bBMI);
 		bBMI.setOnClickListener(new View.OnClickListener() {
-				
-				@Override
-				//this will have all the things that the button Compute will do on click
-				public void onClick(View v) {
-					// TODO Auto-generated method stub
-					//go to aws option page
-					
-					Intent intent= new Intent(OptionActivity.this,BMIFormActivity.class);
-					
-					startActivity(intent);
-				}
-			});
+
+			@Override
+			//this will have all the things that the button Compute will do on click
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				//go to aws option page
+
+				Intent intent = new Intent(OptionActivity.this, BMIFormActivity.class);
+
+				startActivity(intent);
+			}
+		});
+
+		Button bBMR = (Button) findViewById(R.id.bBMR);
+		bBMR.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			//this will have all the things that the button Compute will do on click
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				//go to aws option page
+
+				Intent intent= new Intent(OptionActivity.this,BMRFormActivity.class);
+
+				startActivity(intent);
+			}
+		});
 	}
 
 	@Override
