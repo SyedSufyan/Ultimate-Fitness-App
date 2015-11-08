@@ -70,7 +70,7 @@ public class BMRActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Uri uri = Uri.parse("http://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/"); // missing 'http://' will cause crashed
+                Uri uri = Uri.parse("https://en.wikipedia.org/wiki/Basal_metabolic_rate"); // missing 'http://' will cause crashed
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
 
