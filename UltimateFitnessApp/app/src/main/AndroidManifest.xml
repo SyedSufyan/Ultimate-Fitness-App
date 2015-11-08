@@ -56,6 +56,18 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".BMRActivity"
+            android:label="@string/title_activity_bmr" >
+            <intent-filter>
+                <action android:name="com.example.ultimatefitnessapp.BMRActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BMRFormActivity"
+            android:label="@string/title_activity_bmrform" >
+        </activity>
+        <activity
             android:name=".BFPActivity"
             android:label="@string/title_activity_bfp" >
         </activity>
@@ -63,6 +75,7 @@
             android:name=".BMIFormActivity"
             android:label="@string/title_activity_bmiform" >
         </activity>
+
     </application>
 
 </manifest>
