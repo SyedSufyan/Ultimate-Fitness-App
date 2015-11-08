@@ -27,13 +27,18 @@ public class BMRActivity extends Activity {
 
         //Extract the data…
         String data = bundle.getString("Trans");
-        double bmi = Double.parseDouble(data);
+
+        String bmr = data;
+        String bmrStat = data;
+
+        TextView outbmr = (TextView) findViewById(R.id.bmrResult);
+        TextView statbmr = (TextView)findViewById(R.id.tStatb);
         //truncating
-        bmi = roundTwoDecimals(bmi);
+        /*bmi = roundTwoDecimals(bmi);
         data = String.valueOf(bmi);
         String bmiStat = "";
-        TextView outbmi = (TextView) findViewById(R.id.bmiResult);
-        TextView statbmi = (TextView)findViewById(R.id.tStatb);
+        ;
+
         if(bmi<18.5)
         {
             outbmi.setText(data);
@@ -58,10 +63,10 @@ public class BMRActivity extends Activity {
             outbmi.setText(data);
             bmiStat = "Obese";
             statbmi.setText(bmiStat);
-        }
+        }*/
 
-        Button bmiWeb = (Button) findViewById(R.id.bBMIweb);
-        bmiWeb.setOnClickListener(new View.OnClickListener() {
+        Button bmrWeb = (Button) findViewById(R.id.bBMRweb);
+        bmrWeb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -78,7 +83,7 @@ public class BMRActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.bmi, menu);
+        getMenuInflater().inflate(R.menu.bmr, menu);
         return true;
     }
 

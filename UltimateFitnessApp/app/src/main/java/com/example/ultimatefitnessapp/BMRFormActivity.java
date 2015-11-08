@@ -18,17 +18,15 @@ public class BMRFormActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bmrform); /*TODO*/
+        setContentView(R.layout.activity_bmrform);
 
-        Button bBMI = (Button) findViewById(R.id.bcalBMI); /*TODO*/
+        Button bBMI = (Button) findViewById(R.id.bcalBMR); /*TODO*/
         bBMI.setOnClickListener(new View.OnClickListener() { /*TODO*/
 
             @Override
             //this will have all the things that the button Compute will do on click
             public void onClick(View v) {
-                // TODO Auto-generated method stub
-                //go to aws option page
-                //read the form values
+
 
                 EditText heightField = (EditText) findViewById(R.id.eHeight);
                 String heightS = heightField.getText().toString();
@@ -44,27 +42,31 @@ public class BMRFormActivity extends Activity {
                 int age = Integer.parseInt(ageS);
 
                 /* Gender */
-
+                /* TODO: Get gender from form */
+                char gender = 'M';
 
                 /* Calculations */
 
                 double bmr = 0;
 
-                //if(gender = male)
+                if(gender == 'M')
+                {
+                    bmr = 10 * weight + 6.25 * height - 5 * age + 5;
+                }
 
-                bmr = 10 * weight + 6.25 * height - 5 * age + 5;
-
-                //else (female)
-
-                bmr = 10 * weight + 6.25 * height - 5 * age - 161;
-
-
-                String bmiStat = "";
-                double bmi = (weight/2.20462)/((height/100)^2);
+                else // Female 'F'
+                {
+                    bmr = 10 * weight + 6.25 * height - 5 * age - 161;
+                }
 
 
 
-                String tBmr = String.valueOf(bmr);
+
+                //String bmiStat = "";
+                //double bmi = (weight/2.20462)/((height/100)^2);
+
+
+                String tBmr = String.valueOf(bmr) + " calories per day";
 
                 //Create the bundle
                 Bundle bundle = new Bundle();

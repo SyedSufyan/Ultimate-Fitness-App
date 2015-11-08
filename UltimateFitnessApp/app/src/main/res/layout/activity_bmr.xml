@@ -7,22 +7,22 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#555"
-    tools:context="com.example.ultimatefitnessapp.BMIActivity" >
+    tools:context="com.example.ultimatefitnessapp.BMRActivity" >
 
-    <ImageView
+    <!--<ImageView
         android:id="@+id/test_image"
         android:layout_width="350dp"
         android:layout_height="250dp"
         android:layout_marginTop="200dp"
-        android:src="@drawable/bmichart" />
+        android:src="@drawable/bmichart" />-->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#FFF"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Your Body Mass Index is : "
-        android:id="@+id/tBMI"
+        android:text="Your Basal Metabolic Rate is: "
+        android:id="@+id/tBMR"
         android:layout_gravity="left|top" />
 
     <TextView
@@ -30,10 +30,10 @@
         android:textColor="#FFF"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/bmiResult"
+        android:id="@+id/bmrResult"
         android:layout_gravity="right|top" />
 
-    <TextView
+    <!--<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#FFF"
@@ -41,9 +41,9 @@
         android:layout_marginTop="30dp"
         android:text="Your BMI Stat is : "
         android:id="@+id/tStatbmi"
-        android:layout_gravity="left|top" />
+        android:layout_gravity="left|top" />-->
 
-    <TextView
+    <!--<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#FFF"
@@ -51,14 +51,14 @@
         android:id="@+id/tStatb"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="20dp"
-        android:layout_gravity="center_horizontal|top" />
+        android:layout_gravity="center_horizontal|top" />-->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textStyle="italic"
-        android:text="Click on the button to know more about Body Mass Index"
+        android:text="Click on the button to know more about Basal Metabolic Rate"
         android:textColor="#FFF"
         android:layout_marginTop="70dp"
         android:id="@+id/tBmiWeb"
@@ -67,10 +67,10 @@
     <Button
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Body Mass Index"
+        android:text="Basal Metabolic Rate"
         android:background="#CCC"
         android:layout_marginTop="130dp"
-        android:id="@+id/bBMIweb"
+        android:id="@+id/bBMRweb"
         android:layout_gravity="center_horizontal|top" />
 
 
