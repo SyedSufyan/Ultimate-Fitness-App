@@ -127,7 +127,6 @@
         android:layout_marginLeft="100dp"
         android:inputType="text"
         android:layout_marginTop="-50dp"
-        
         android:hint="M/F"
         android:textColor="#FFF"
         android:layout_gravity="left|center_vertical" />

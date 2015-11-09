@@ -7,7 +7,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#555"
-    tools:context="com.example.ultimatefitnessapp.BMRActivity" >
+    tools:context="com.example.ultimatefitnessapp.BMRActivity"
+    android:id="@+id/bmr">
 
     <!--<ImageView
         android:id="@+id/test_image"
@@ -21,17 +22,9 @@
         android:layout_height="wrap_content"
         android:textColor="#FFF"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Your Basal Metabolic Rate is: "
+        android:text="Your BMR is: "
         android:id="@+id/tBMR"
         android:layout_gravity="left|top" />
-
-    <TextView
-        android:layout_width="133dp"
-        android:textColor="#FFF"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/bmrResult"
-        android:layout_gravity="right|top" />
 
     <!--<TextView
         android:layout_width="wrap_content"
@@ -72,6 +65,26 @@
         android:layout_marginTop="130dp"
         android:id="@+id/bBMRweb"
         android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="133dp"
+        android:textColor="#FFF"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/bmrResult"
+        android:layout_gravity="center_horizontal|top"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="calories/day"
+        android:id="@+id/tcpd"
+        android:layout_gravity="right|top"
+        android:textColor="#FFF"
+        android:textIsSelectable="true" />
 
 
 </FrameLayout>
