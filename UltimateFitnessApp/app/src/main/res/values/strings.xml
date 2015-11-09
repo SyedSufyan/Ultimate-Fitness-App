@@ -7,7 +7,9 @@
     <string name="title_activity_form">FormActivity</string>
     <string name="title_activity_option">OptionActivity</string>
     <string name="title_activity_bmi">BMIActivity</string>
+    <string name="title_activity_bmr">BMRActivity</string>
     <string name="title_activity_bfp">BFPActivity</string>
     <string name="title_activity_bmiform">BMIFormActivity</string>
+    <string name="title_activity_bmrform">BMRFormActivity</string>
 
 </resources>
