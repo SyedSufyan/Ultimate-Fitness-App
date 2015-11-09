@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:2:1-68:12
+ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:2:1-81:12
 	xmlns:android
 		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -41,7 +41,7 @@ ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFit
 	android:name
 		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:15:30-85
 application
-ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:17:5-66:19
+ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:17:5-79:19
 MERGED from [com.android.support:support-v4:23.0.1] C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:20:9-41
@@ -107,15 +107,33 @@ action#com.example.ultimatefitnessapp.BMIActivity
 ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:53:17-85
 	android:name
 		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:53:25-82
-activity#com.example.ultimatefitnessapp.BFPActivity
-ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:58:9-61:20
+activity#com.example.ultimatefitnessapp.BMRActivity
+ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:58:9-65:20
 	android:label
 		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:60:13-55
 	android:name
 		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:59:13-40
-activity#com.example.ultimatefitnessapp.BMIFormActivity
-ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:62:9-65:20
-	android:label
-		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:64:13-59
+intent-filter#android.intent.category.DEFAULT+com.example.ultimatefitnessapp.BMRActivity
+ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:61:13-64:29
+action#com.example.ultimatefitnessapp.BMRActivity
+ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:62:17-85
 	android:name
-		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:63:13-44
+		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:62:25-82
+activity#com.example.ultimatefitnessapp.BMRFormActivity
+ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:66:9-69:20
+	android:label
+		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:68:13-59
+	android:name
+		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:67:13-44
+activity#com.example.ultimatefitnessapp.BFPActivity
+ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:70:9-73:20
+	android:label
+		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:72:13-55
+	android:name
+		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:71:13-40
+activity#com.example.ultimatefitnessapp.BMIFormActivity
+ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:74:9-77:20
+	android:label
+		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:76:13-59
+	android:name
+		ADDED from C:\Users\SyedSufyan\Documents\GitHub\Ultimate-Fitness-App\UltimateFitnessApp\app\src\main\AndroidManifest.xml:75:13-44

@@ -57,6 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="italic"
         android:text="Click on the button to know more about Body Mass Index"
         android:textColor="#FFF"
         android:layout_marginTop="70dp"

@@ -12,6 +12,8 @@
     <string name="title_activity_bfp">BFPActivity</string>
     <string name="title_activity_bmi">BMIActivity</string>
     <string name="title_activity_bmiform">BMIFormActivity</string>
+    <string name="title_activity_bmr">BMRActivity</string>
+    <string name="title_activity_bmrform">BMRFormActivity</string>
     <string name="title_activity_form">FormActivity</string>
     <string name="title_activity_option">OptionActivity</string>
     <!-- From: file:/C:/Users/SyedSufyan/Documents/GitHub/Ultimate-Fitness-App/UltimateFitnessApp/app/src/main/res/values/styles.xml -->

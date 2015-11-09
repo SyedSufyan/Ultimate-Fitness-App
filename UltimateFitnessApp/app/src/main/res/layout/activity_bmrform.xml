@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/tSex"
         android:layout_below="@+id/tWelcome"
-        android:layout_marginTop="94dp"
+        android:layout_marginTop="90dp"
         android:text="Age: "
         android:inputType="number"
         android:textColor="#FFF"
@@ -36,7 +36,7 @@
         android:layout_alignRight="@+id/tAge"
         android:layout_marginLeft="84dp"
         android:hint="years"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="80dp"
         android:ems="10"
         android:inputType="number"
         android:textColor="#FFF"
@@ -68,18 +68,20 @@
         android:textColor="#FFF"
         android:layout_gravity="left|top" />
 
+
     <TextView
         android:id="@+id/tHeight"
         android:layout_width="100dp"
+
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/tWeight"
         android:layout_below="@+id/tWeight"
-        android:layout_marginTop="94dp"
+        android:layout_marginTop="140dp"
         android:text="Height : "
         android:inputType="number"
         android:textColor="#FFF"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_gravity="left|center_vertical" />
+        android:layout_gravity="left|top" />
 
     <EditText
         android:id="@+id/eHeight"
@@ -88,23 +90,13 @@
         android:layout_alignBaseline="@+id/tHeight"
         android:layout_alignBottom="@+id/tHeight"
         android:layout_alignLeft="@+id/tHeight"
-        android:layout_marginLeft="84dp"
+        android:layout_marginLeft="-40dp"
         android:hint="in cm"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="130dp"
         android:ems="10"
         android:inputType="number"
         android:textColor="#FFF"
-        android:layout_gravity="center" />
-
-
-
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="Calculate"
-        android:id="@+id/bcalBMR"
-        android:background="#BBB"
-        android:layout_gravity="right|bottom" />
+        android:layout_gravity="center_horizontal|top" />
 
     <TextView
         android:id="@+id/tSex"
@@ -112,11 +104,19 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/tSex"
         android:layout_below="@+id/tWelcome"
-        android:layout_marginTop="94dp"
+        android:layout_marginTop="-50dp"
         android:text="Gender: "
         android:textColor="#FFF"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_gravity="left|bottom" />
+        android:layout_gravity="left|center_vertical" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:id="@+id/bcalBMR"
+        android:background="#BBB"
+        android:layout_gravity="right|center_vertical" />
 
     <EditText
         android:id="@+id/eSex"
@@ -124,9 +124,12 @@
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/tWelcome"
         android:layout_below="@+id/eAge"
+        android:layout_marginLeft="100dp"
         android:inputType="text"
-        android:ems="10"
+        android:layout_marginTop="-50dp"
+        
+        android:hint="M/F"
         android:textColor="#FFF"
-        android:layout_gravity="center_horizontal|bottom" />
+        android:layout_gravity="left|center_vertical" />
 
 </FrameLayout>
